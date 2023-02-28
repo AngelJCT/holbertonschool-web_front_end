@@ -41,7 +41,7 @@ html {
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-letter-spacing: 4%;
     --nav-item-display: inline-block;
-    --nav-item-margin: 0 1rem;
+    --nav-item-margin: 0 0 calc(3 * var(--font-size-medium)) 0;
     --nav-item-link-hover: var(--color-primary);
 }
 body {
@@ -125,7 +125,7 @@ a:active {
 }
 .nav .nav-link {
     display: block;
-    padding: 1rem auto;
+    padding: calc(var(--font-size-medium) / 2) var(--font-size-medium);
 }
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
