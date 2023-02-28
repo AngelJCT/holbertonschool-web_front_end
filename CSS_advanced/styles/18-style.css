@@ -125,7 +125,7 @@ a:active {
 }
 .nav .nav-link {
     display: block;
-    padding: calc(var(--font-size-medium) / 2) var(--font-size-medium);
+    padding: calc(var(--font-size-medium) / 2) 0;
 }
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
