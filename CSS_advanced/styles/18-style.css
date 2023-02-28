@@ -123,10 +123,10 @@ a:active {
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
 }
-.nav-link {
+.nav .nav-link {
     display: block;
     padding: 1rem auto;
 }
-.nav-link:hover {
+.nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
